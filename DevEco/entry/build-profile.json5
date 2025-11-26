@@ -1,0 +1,26 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "compileMode": "debug",
+    "productTypes": ["phone"],
+    "abiFilters": ["arm64-v8a"]  
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "type": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "runtimeOS": "HarmonyOS"
+        }
+      ],
+      "buildOption": {
+        "arkOptions": {
+          "enableDebug": true
+        }
+      }
+    }
+  ]
+}
