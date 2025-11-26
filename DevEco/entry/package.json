@@ -1,0 +1,20 @@
+{
+  "name": "mindspore_deploy_demo",
+  "version": "1.0.0",
+  "description": "昇思模型DevEco部署示例",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/mindspore-lite": "^1.0.0"  
+  },
+  "devDependencies": {
+    "@ohos/hvigor-ohos-plugin": "4.0.0",
+    "@ohos/hvigor": "4.0.0"
+  },
+  "ohos": {
+    "osVersion": "4.0",
+    "compileSdkVersion": "4.0",
+    "compatibleSdkVersion": "4.0"
+  }
+}
