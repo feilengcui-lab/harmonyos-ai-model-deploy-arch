@@ -1,0 +1,33 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "",
+    "mainElement": "EntryAbility",
+    "deviceTypes": ["phone"],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": ["pages/Index"],
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "",
+        "icon": "$media:icon",
+        "label": "MindSpore部署示例",
+        "visible": true,
+        "skills": [
+          {
+            "entities": ["entity.system.home"],
+            "actions": ["action.system.home"]
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.READ_IMAGEVIDEO"  // 读取图片权限
+      }
+    ]
+  }
+}
